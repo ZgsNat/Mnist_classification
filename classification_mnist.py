@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model('mnist_cnn_model.h5')
+model = load_model('mnist_cnn_model_2.h5')
 
 def preprocess_and_predict(canvas_image, model):
 
